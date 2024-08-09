@@ -6,8 +6,8 @@ In this project I used several animations, such as typescript, smooth scroll, I 
 
 ## Light mode
 
-![Screenshot](./screenshot-light)
+![Screenshot](./image/screenshot-light)
 
 ## Dark mode
 
-![Screenshot](./screenshot-dark)
+![Screenshot](./image/screenshot-dark)
