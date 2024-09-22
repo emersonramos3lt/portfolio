@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Emerson</div>
+
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Emerson</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span> <!-- span = Icon menu-->
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile.png" alt="Profile">
+        </div>
+        <div class="section_text">
+
+            <p class="section_text_p1">
+                Hello 👋, I'm
+            </p>
+
+            <h1 class="title">Emerson</h1>
+            <p class="section_text_p2">
+                I know <span id="typewriter"></span><span class="cursor">|</span>
+            </p>
+
+            <div class="btn-container">
+                <a href="https://github.com/emersonramos3lt" target="_blank" class="btn btn-color-2">See my GitHub</a>
+
+                <a href="#contact" class="btn btn-color-1">Contact</a>
+            </div>
+
+            <div id="socials-container">
+                <img src="./assets/github.png" alt="My GitHub" class="icon" onclick="location.href='https://github.com/emersonramos3lt'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="about-details-container">
+
+            <div class="details-container">
+
+                <div>
+                <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                <h3>Knowledge</h3>
+                <p>HTML CSS, JavaScript, React library, PHP and MySQL</p>
+                </div>
+
+               <div>
+                <img src="./assets/education.png" alt="Education icon" class="icon">
+                <h3>Education</h3>
+
+                <p>
+                Alura <a href="https://cursos.alura.com.br/user/emerson-ramos-dos-santos2006/fullCertificate/dfbcc60c04165a31ae9157137e4938af" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a><br>
+
+                Curso em Vídeo <a href="https://www.cursoemvideo.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </p>
+               </div>
+            </div>
+
+            <div class="text-container">
+                <p>My journey into Front-end development began in 2022 when I started taking courses. Initially, I trained in Python and other Back-end languages, but once I started learning HTML, I discovered a passion for Front-end development. Since then, I've deepened my knowledge in HTML, CSS, JavaScript, React, PHP, and MySQL.</p>
+            </div>
+          </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'">
+    </section>
+
+    <section id="projects">
+
+        <p class="section_text_p1">My Projects</p>
+        <h1 class="title">Projects</h1>
+    
+        <div class="columns-projects">
+    
+            <img src="./assets/project-1.PNG" alt="Project 1" title="Travel website" onclick="location.href='https://emersonramos3lt.github.io/travel/'">
+            <img src="./assets/project-2.PNG" alt="Project 2" title="PHP form" onclick="location.href='https://github.com/emersonramos3lt/contact-php'">
+            <img src="./assets/project-3.PNG" alt="Project 3" title="Marketing company website" onclick="location.href='https://emersonramos3lt.github.io/marketing-page/'">
+            <img src="./assets/project-4.PNG" alt="Project 4" title="Podcast website" onclick="location.href='https://emersonramos3lt.github.io/podcast/'">
+        </div>
+    
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'">
+       </section>
+
+   <section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+            <p><a href="mailto:emerson.ramos.dos.santos2006@gmail.com">emerson.ramos.dos.santos2006@gmail.com</a></p>        
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/github.png" alt="Email icon" class="icon contact-icon">
+            <p><a href="https://github.com/emersonramos3lt" target="_blank">GitHub</a></p>        
+        </div>
+    </div>
+   </section>
+
+   <footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Emerson Ramos. All Rights Reserved</p>
+   </footer>
+
+    <!-- GSAP library -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
