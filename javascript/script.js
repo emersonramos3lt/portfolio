@@ -45,3 +45,14 @@ themeSwitch.addEventListener("click", () => {
     darkmode = localStorage.getItem('darkmode');
     darkmode !== 'active' ? enableDarkmode() : disableDarkmode();
 });
+
+// Scroll animation
+window.sr = ScrollReveal ({reset: false});
+
+ScrollReveal().reveal('main, section', {
+    mobile: false,
+    desktop: true,
+    distance: '100px',
+    origin: 'top',
+    duration: 1800
+})
