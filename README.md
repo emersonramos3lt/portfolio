@@ -7,6 +7,7 @@ to their preference. This project highlights my attention to detail and focus on
 # Main Features
 - HTML CSS
 - JavaScript
+- ScrollReveal
 - Dark/light mode
 - Smooth scroll
 
