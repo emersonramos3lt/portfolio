@@ -11,4 +11,9 @@ to their preference. This project highlights my attention to detail and focus on
 - Smooth scroll
 
 # Screenshot
+
+## Light mode
 ![Screenshot](./screenshot/img1.PNG)
+
+## Dark mode
+![Screenshot](./screenshot/img2.PNG)
