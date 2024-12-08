@@ -9,6 +9,10 @@
     --btnHover: #192BC2;
 }
 
+body {
+    background: rgb(255,255,255);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -119,20 +123,25 @@ a span {
     font-weight: 800;
 }
 
+.icons {
+    font-size: 1.7rem;
+}
+
 p {
     font-size: 1.3rem;
     line-height: 37px;
 }
 
 p span {
-    font-weight: 600;
+    font-weight: 800;
 }
+
 
 /* ABOUT */
 section {
     max-width: 1400px;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 8rem;
     border-top: 2px solid var(--blue);
 }
 
@@ -151,12 +160,12 @@ section ul li {
     margin-bottom: 1rem;
 }
 
-#about ul li a:hover {
-    color: #0C2FF2;
+#about .ul-know li a:hover {
+    color: var(--blue);
 }
 
-#about ul li:hover {
-    color: #0C2FF2;
+#about .ul-know li:hover {
+    color: var(--blue);
 }
 
 /* PROJECTS */
@@ -169,7 +178,10 @@ section ul li {
 }
 
 #projects p a:hover {
-    color: #0C2FF2;
+    color: var(--blue);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
 }
 
 /* SCROLLBAR */
