@@ -22,12 +22,12 @@
     .grid {
         display: flex;
         flex-flow: column wrap;
-        max-width: 100%;
+        max-width: 90%;
         margin: auto;
     }
 
     .card {
-        width: 70%;
+        width: 50%;
         margin: auto;
     }
 }
@@ -130,13 +130,19 @@
     .grid {
         display: flex;
         flex-flow: column wrap;
-        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
         margin: auto;
+        gap: 0;
     }
 
     .card {
-        width: 85%;
+        width: 100%;
         margin: auto;
+        margin-bottom: 1rem;
+        margin-left: -0.8rem;
+        padding: 1rem;
     }
 
     /* CONTACT */
