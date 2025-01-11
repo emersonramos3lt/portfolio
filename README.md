@@ -1,17 +1,15 @@
-# Description
+# 🎨 Portfolio Website
 
-This portfolio showcases my skills and passion for Front-end development, featuring a responsive design that adapts seamlessly to any screen size. It includes smooth scroll 
-functionality for a polished navigation experience when clicking on links. Additionally, the portfolio offers both light and dark modes, allowing users to switch themes according 
-to their preference. This project highlights my attention to detail and focus on creating intuitive and visually appealing user interfaces.
+This portfolio demonstrates my Front-end development skills and passion, featuring a responsive design that adapts flawlessly to any screen size. It includes **smooth scrolling** for seamless navigation and supports **light and dark modes**, enabling users to **personalize their browsing experience**. The project emphasizes intuitive and visually appealing **UI/UX design** with attention to detail.
 
-# Main Features
-- HTML CSS
-- JavaScript
-- ScrollReveal
-- Dark/light mode
-- Smooth scroll
+# 🛠️ Main Features
+- **HTML & CSS for structure and styling**
+- **JavaScript for interactivity**
+- **ScrollReveal for dynamic animations**
+- **Dark/Light Mode for theme customization**
+- **Smooth Scroll for polished navigation**
 
-# Screenshot
+# 📷 Screenshots
 
 ## Light mode
 ![Screenshot](./screenshot/img1.PNG)
