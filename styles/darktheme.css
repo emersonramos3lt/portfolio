@@ -1,0 +1,49 @@
+/* DARK STYLE */
+body.darkmode {
+    background-color: #111;
+    color: #fff;
+    opacity: .9;
+}
+
+/* HEADER */
+.darkmode .logo {
+    color: #fff;
+}
+
+.darkmode .logo:hover {
+    color: var(--blue);
+}
+
+.darkmode  #mainMenu li a {
+    color: #fff;
+}
+
+.darkmode #theme-switch p:first-child {
+    display: block;
+}
+
+.darkmode #theme-switch p:last-child {
+    display: none;
+}
+
+.darkmode nav #openMenu, .darkmode nav #closeMenu {
+    color: #fff;
+}
+
+.darkmode nav #openMenu:hover, nav #closeMenu:hover {
+    color: var(--blue);
+}
+
+.darkmode  #mainMenu {
+    background-color: #111;
+}
+
+/* TEXT */
+.darkmode section ul li {
+    color: #fff;
+}
+
+.darkmode a {
+    color: #fff;
+}
+

@@ -1,0 +1,157 @@
+@media (max-width: 1400px) {
+     /* PROJECTS */
+     .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .grid-about {
+        display: flex;
+        flex-flow:  column wrap;
+    }
+
+    .grid-about img {
+        width: 80%;
+    }
+
+    .grid {
+        display: flex;
+        flex-flow: column wrap;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .card {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    nav #mainMenu {
+        height: 100vh;
+        position: fixed;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        background-color: #fff;
+        inset: 0;
+        transition: top 1s ease 0s;
+        z-index: 1000;
+    }
+
+    nav #mainMenu #closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav #openMenu {
+        display: block;
+    }
+
+    nav #mainMenu li {
+        margin-bottom: 5rem;
+    }
+
+    nav #mainMenu li a {
+        font-size: 1.5rem;
+    }
+
+    nav #theme-switch {
+        all: unset;
+        cursor: pointer;
+        position: relative;
+        right: 15px;
+        text-align: center;
+    }
+    
+    nav #theme-switch p {
+        background-color: var(--blue);
+        padding: 1rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+    
+    #theme-switch p:first-child {
+        display: none;
+    }
+
+    /* MAIN */
+    main {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    /* ABOUT */
+    section {
+        max-width: 90%;
+        margin-top: 5rem;
+    }
+
+    .grid-about {
+        display: flex;
+        flex-flow:  column wrap;
+    }
+
+    .grid-about li {
+        font-size: 1.1rem;
+    }
+
+    .grid-about img {
+        width: 50%;
+        order: 2;
+    }
+
+    section ul li {
+        font-size: 1.1rem;
+    }
+
+    /* PROJECTS */
+    .grid {
+        display: flex;
+        flex-flow: column wrap;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .card {
+        width: 85%;
+        margin: auto;
+    }
+
+    /* CONTACT */
+    #contact {
+        margin-bottom: 8rem;
+    }
+
+    #contact a  {
+        font-size: 1rem;
+        line-height: 40px;
+    }
+
+    /* FOOTER */
+    footer {
+        max-width: 90%;
+        padding: 1rem;
+    }
+}
