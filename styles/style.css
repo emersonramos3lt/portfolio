@@ -171,8 +171,8 @@ section {
 
 .grid-about img {
     animation: imgAnimation 5s ease-in-out infinite;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 @keyframes imgAnimation {
@@ -231,6 +231,8 @@ section ul li {
 .card img {
     width: 100%;
     margin-bottom: 2rem;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 .a-wrapper {
