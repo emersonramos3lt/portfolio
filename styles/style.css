@@ -171,6 +171,8 @@ section {
 
 .grid-about img {
     animation: imgAnimation 5s ease-in-out infinite;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 @keyframes imgAnimation {
