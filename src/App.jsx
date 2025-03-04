@@ -1,4 +1,4 @@
-import Cursor from "./components/cursor"
+import Cursor from "./components/Cursor"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Projects from "./components/Projects"
