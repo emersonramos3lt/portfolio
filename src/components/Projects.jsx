@@ -1,0 +1,59 @@
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+const Projects = () => {
+
+    useEffect(() => {
+        AOS.init()
+    }, []);
+       
+
+  return (
+    <div className='mt-28 sm:mt-50 text-zinc-900 max-w-[90%] m-auto'>
+        <h2 className='text-center text-2xl sm:text-4xl lg:text-5xl font-extrabold mb-8' data-aos="fade-up">RELEVANT PROJECTS</h2>
+
+        <div className='grid lg:grid-cols-2 gap-4'>
+
+            <div className='' data-aos="fade-right" data-aos-duration="700">
+                <a href="https://awwward-website.vercel.app/" target='_blank'>
+                    <img src="./public/project1.png" alt="Awwwards Inspired React Website" className='
+                    rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
+                </a>
+                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Awwwards Inspired Website</h3>
+                <p className='font-medium text-zinc-600'>Website with advanced animations and responsive design.</p>
+            </div>
+
+            <div className='' data-aos="fade-right" data-aos-duration="700">
+                <a href="https://movie-finder-react-psi.vercel.app/" target='_blank'>
+                    <img src="./public/project2.png" alt="Movie Search with api" className='
+                    rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
+                </a>
+                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Movie Search with api</h3>
+                <p className='font-medium text-zinc-600'>A responsive React app that lets users search movies.</p>
+            </div>
+
+            <div className='' data-aos="fade-right" data-aos-duration="700">
+                <a href="https://emersonramos3lt.github.io/send-form-email/" target='_blank'>
+                    <img src="./public/project3.png" alt="Contact Form" className='
+                    rounded-3xl w-[100%] object-cover h-[300px] sm:h-[500px] transition-transform hover:scale-95'/>
+                </a>
+                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Modern Landinpage with Next.js</h3>
+                <p className='font-medium text-zinc-600'>A marketing landingpage with scrolling animations.</p>
+            </div>
+
+            <div className='' data-aos="fade-right" data-aos-duration="700">
+                <a href="https://emersonramos3lt.github.io/javascript-dynamic-chart/" target='_blank'>
+                    <img src="./public/project4.png" alt="JavaScript chart generator" className='
+                    rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
+                </a>
+                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>JavaScript chart generator</h3>
+                <p className='font-medium text-zinc-600'>A dynamic javascript chart using Chart.js library.</p>
+            </div>
+
+        </div>
+    </div>
+  )
+}
+
+export default Projects
