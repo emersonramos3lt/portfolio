@@ -17,7 +17,7 @@ const Projects = () => {
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
                 <a href="https://awwward-website.vercel.app/" target='_blank'>
-                    <img src="./public/project1.png" alt="Awwwards Inspired React Website" className='
+                    <img src="/project1.png" alt="Awwwards Inspired React Website" className='
                     rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
                 </a>
                 <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Awwwards Inspired Website</h3>
@@ -26,7 +26,7 @@ const Projects = () => {
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
                 <a href="https://movie-finder-react-psi.vercel.app/" target='_blank'>
-                    <img src="./public/project2.png" alt="Movie Search with api" className='
+                    <img src="/project2.png" alt="Movie Search with api" className='
                     rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
                 </a>
                 <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Movie Search with api</h3>
@@ -35,7 +35,7 @@ const Projects = () => {
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
                 <a href="https://emersonramos3lt.github.io/send-form-email/" target='_blank'>
-                    <img src="./public/project3.png" alt="Contact Form" className='
+                    <img src="/project3.png" alt="Contact Form" className='
                     rounded-3xl w-[100%] object-cover h-[300px] sm:h-[500px] transition-transform hover:scale-95'/>
                 </a>
                 <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Modern Landinpage with Next.js</h3>
@@ -44,7 +44,7 @@ const Projects = () => {
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
                 <a href="https://emersonramos3lt.github.io/javascript-dynamic-chart/" target='_blank'>
-                    <img src="./public/project4.png" alt="JavaScript chart generator" className='
+                    <img src="/project4.png" alt="JavaScript chart generator" className='
                     rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
                 </a>
                 <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>JavaScript chart generator</h3>
