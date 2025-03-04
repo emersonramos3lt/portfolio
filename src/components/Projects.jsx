@@ -34,7 +34,7 @@ const Projects = () => {
             </div>
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
-                <a href="https://emersonramos3lt.github.io/send-form-email/" target='_blank'>
+                <a href="https://marketing-landinpage.vercel.app/" target='_blank'>
                     <img src="/project3.png" alt="Contact Form" className='
                     rounded-3xl w-[100%] object-cover h-[300px] sm:h-[500px] transition-transform hover:scale-95'/>
                 </a>
