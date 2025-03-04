@@ -1,8 +1,19 @@
-# React + Vite
+# **🖥️ Personal Portfolio**  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a single-page portfolio built with **React**, designed to showcase my work in a clean and minimalist way, focusing only on the essentials. The page features a **downloadable resume (PDF)**, a **project showcase**, and a **contact section** in the footer, where visitors can reach out or explore my social media links.  
 
-Currently, two official plugins are available:
+For smooth and engaging interactions, I used **Framer Motion** to create a custom animated cursor, enhancing the browsing experience. Additionally, **AOS Library** was implemented for lightweight scroll animations, making the website more dynamic while maintaining optimal performance.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# **🛠️ Main Features**  
+- **React** for a fast and dynamic UI  
+- **Framer Motion** for a custom animated cursor  
+- **AOS Library** for smooth scroll animations  
+- **Minimalist design** focused on essentials  
+- **Downloadable resume (PDF)**  
+- **Project showcase**  
+- **Contact section** with social links  
+
+# **📷 Screenshots**  
+![Screenshot](./screenshot/img1.PNG)
+
+![Screenshot](./screenshot/img2.PNG)
