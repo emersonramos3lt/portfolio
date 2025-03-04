@@ -27,18 +27,18 @@ const Footer = () => {
        </div>
 
        <div className='flex items-center justify-center gap-16 my-12 sm:my-24'>
-        <a href="#" target='_blank' className='flex items-center justify-center gap-2 text-[1.30rem] font-bold'>
+        <a href="https://www.linkedin.com/in/emerson-ramos-18057333a/" target='_blank' className='flex items-center justify-center gap-2 text-[1.30rem] font-bold'>
           <img src="/linkedin.svg" alt="LinkedIn logo" className='w-[25px] h-[25px]' />
           <span className='hidden sm:block'>LinkedIn</span>
         </a>
 
-        <a href="#" target='_blank' className='flex items-center justify-center gap-2 text-[1.30rem] font-bold'>
-          <img src="/github.svg" alt="LinkedIn logo" className='w-[25px] h-[25px]' />
+        <a href="https://github.com/emersonramos3lt" target='_blank' className='flex items-center justify-center gap-2 text-[1.30rem] font-bold'>
+          <img src="/github.svg" alt="GitHub logo" className='w-[25px] h-[25px]' />
           <span className='hidden sm:block'>GitHub</span>
         </a>
 
-        <a href="#" target='_blank' className='flex items-center justify-center gap-2 text-[1.30rem] font-bold'>
-          <img src="/email.svg" alt="LinkedIn logo" className='w-[25px] h-[25px]' />
+        <a href="mailto:emerson.ramos.dos.santos2006@gmail.com" target='_blank' className='flex items-center justify-center gap-2 text-[1.30rem] font-bold'>
+          <img src="/email.svg" alt="Email logo" className='w-[25px] h-[25px]' />
           <span className='hidden sm:block'>Email</span>
         </a>
        </div>
