@@ -14,6 +14,6 @@ For smooth and engaging interactions, I used **Framer Motion** to create a custo
 - **Contact section** with social links  
 
 # **📷 Screenshots**  
-![Screenshot](./screenshot/img1.PNG)
+![Screenshot](./screenshot/img1.png)
 
 ![Screenshot](./screenshot/img2.PNG)
