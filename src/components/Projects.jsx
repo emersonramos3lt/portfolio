@@ -34,12 +34,12 @@ const Projects = () => {
             </div>
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
-                <a href="https://marketing-landinpage.vercel.app/" target='_blank'>
-                    <img src="/project3.png" alt="Contact Form" className='
+                <a href="https://fullstack-blog-nextjs-umber.vercel.app/" target='_blank'>
+                    <img src="/project3.png" alt="Blog app" className='
                     rounded-3xl w-[100%] object-cover h-[300px] sm:h-[500px] transition-transform hover:scale-95'/>
                 </a>
-                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Modern Landinpage with Next.js</h3>
-                <p className='font-medium text-zinc-600'>A marketing landingpage with scrolling animations.</p>
+                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Full-Stack Blog with Next.js</h3>
+                <p className='font-medium text-zinc-600'>A fullstack blogging application built with Next.js with MongoDB</p>
             </div>
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
