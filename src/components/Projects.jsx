@@ -44,10 +44,10 @@ const Projects = () => {
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
                 <a href="https://emersonramos3lt.github.io/javascript-dynamic-chart/" target='_blank'>
-                    <img src="/project4.png" alt="JavaScript chart generator" className='
+                    <img src="/project4.png" alt="Full-Stack E-Commerce" className='
                     rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
                 </a>
-                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Full-Stack E-Commerce</h3>
+                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Complete E-Commerce Application</h3>
                 <p className='font-medium text-zinc-600'>A complete e-commerce with dynamic cart, filters and authentication</p>
             </div>
 
