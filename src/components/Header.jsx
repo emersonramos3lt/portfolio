@@ -16,7 +16,7 @@ const Header = () => {
             <a href="/curriculo.pdf" aria-label='Download my resume' download className='uppercase text-sm sm:text-lg font-extrabold transition-colors hover:text-zinc-700' title='Download Resume'>Resume</a>
         </nav>
 
-        <h1 className='text-center text-3xl sm:text-6xl lg:text-8xl font-extrabold lg:leading-[120px] text-zinc-900 mt-14' data-aos="zoom-in-up" data-aos-duration="800">FULL STACK DEVELOPER WITH A PASSION FOR WEB DESIGN, UI/UX, AND CREATING STUNNING APPLICATIONS.</h1>
+        <h1 className='text-center text-3xl sm:text-6xl lg:text-8xl font-extrabold lg:leading-[120px] text-zinc-900 mt-14' data-aos="fade-up" data-aos-duration="1500">FULL STACK DEVELOPER WITH A PASSION FOR WEB DESIGN, UI/UX, AND CREATING STUNNING APPLICATIONS.</h1>
     </header>
   )
 }
