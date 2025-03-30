@@ -34,7 +34,7 @@ const Projects = () => {
             </div>
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
-                <a href="https://fullstack-blog-nextjs-umber.vercel.app/" target='_blank'>
+                <a href="https://fullstack-blog-rho.vercel.app/" target='_blank'>
                     <img src="/project3.png" alt="Blog app" className='
                     rounded-3xl w-[100%] object-cover h-[300px] sm:h-[500px] transition-transform hover:scale-95'/>
                 </a>
@@ -43,7 +43,7 @@ const Projects = () => {
             </div>
 
             <div className='' data-aos="fade-right" data-aos-duration="700">
-                <a href="https://emersonramos3lt.github.io/javascript-dynamic-chart/" target='_blank'>
+                <a href="https://nextjs-ecommerce-fullstack-gamma.vercel.app/" target='_blank'>
                     <img src="/project4.png" alt="Full-Stack E-Commerce" className='
                     rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
                 </a>
