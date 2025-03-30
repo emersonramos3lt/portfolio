@@ -47,8 +47,8 @@ const Projects = () => {
                     <img src="/project4.png" alt="JavaScript chart generator" className='
                     rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
                 </a>
-                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>JavaScript chart generator</h3>
-                <p className='font-medium text-zinc-600'>A dynamic javascript chart using Chart.js library.</p>
+                <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>Full-Stack E-Commerce</h3>
+                <p className='font-medium text-zinc-600'>A complete e-commerce with dynamic cart, filters and authentication</p>
             </div>
 
         </div>
