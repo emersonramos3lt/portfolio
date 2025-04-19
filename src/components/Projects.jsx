@@ -43,8 +43,8 @@ const Projects = () => {
             </div>
 
             <div className='' data-aos="fade-right" data-aos-duration="1000">
-                <a href="https://nextjs-ecommerce-fullstack-gamma.vercel.app/" target='_blank'>
-                    <img src="/project4.png" alt="Full-Stack E-Commerce" className='
+                <a href="https://react-social-app-lpl4.vercel.app/" target='_blank'>
+                    <img src="/project4.png" alt="React Social Media" className='
                     rounded-3xl w-[100%] h-[300px] sm:h-[500px] object-cover transition-transform hover:scale-95'/>
                 </a>
                 <h3 className='font-extrabold text-2xl sm:text-3xl my-2 sm:my-4 uppercase'>React Social Media App</h3>
