@@ -1,52 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import "tailwindcss";
+import { useState} from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-* {
-  font-family: "Poppins", serif;
-  cursor: none;
+const Footer = () => {
+
+  useState(() => {
+    AOS.init()
+  }, [])
+
+  return (
+    <footer className='mt-12 sm:mt-50 bg-zinc-900 text-white p-2 sm:p-5 text-center pt-[5rem] sm:pt-[7rem]'>
+
+      <div data-aos="fade-up" data-aos-duration="700">
+        <h1 className='footer-title text-rose-400 text-lg sm:text-2xl lg:text-3xl font-medium'>👋 Hey! Do you want to get in touch?</h1>
+        <h2 className='text-4xl sm:text-9xl font-extrabold mt-5'>LET&apos;S TALK!</h2>
+
+       <div className='flex items-center justify-center gap-8 mt-5 sm:flex-row flex-col'>
+
+       <a href='https://www.linkedin.com/in/emerson-ramos-18057333a/' target='_blank' className="btn1 relative bg-rose-400 text-white sm:text-black sm:bg-white p-4 sm:p-5 rounded-4xl px-15 font-bold text-lg hover:text-white w-full sm:w-auto">
+          SEE MY LINKEDIN
+        </a>
+
+        <a href='mailto:emerson.ramos.dos.santos2006@gmail.com' className="btn2 relative bg-transparent border border-white p-4 sm:p-5 rounded-4xl px-10 font-bold text-lg hover:border-neutral-200  transition duration-500 w-full sm:w-auto hover:text-zinc-900">
+          SEND ME A EMAIL
+        </a>
+       </div>
+
+       <div className='flex items-center justify-center gap-16 my-12 sm:my-24'>
+        <a href="https://www.linkedin.com/in/emerson-ramos-18057333a/" target='_blank' className='flex items-center justify-center gap-2 text-[1.30rem] font-bold'>
+          <img src="/linkedin.svg" alt="LinkedIn logo" className='w-[25px] h-[25px]' />
+          <span className='hidden sm:block'>LinkedIn</span>
+        </a>
+
+        <a href="https://github.com/emersonramos3lt" target='_blank' className='flex items-center justify-center gap-2 text-[1.30rem] font-bold'>
+          <img src="/github.svg" alt="GitHub logo" className='w-[25px] h-[25px]' />
+          <span className='hidden sm:block'>GitHub</span>
+        </a>
+
+        <a href="mailto:emerson.ramos.dos.santos2006@gmail.com" target='_blank' className='flex items-center justify-center gap-2 text-[1.30rem] font-bold'>
+          <img src="/email.svg" alt="Email logo" className='w-[25px] h-[25px]' />
+          <span className='hidden sm:block'>Email</span>
+        </a>
+       </div>
+       </div>
+    </footer>
+  )
 }
 
-.footer-title {
-  font-family: "Permanent Marker", cursive;
-}
-
-a.btn1::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-color: #F22259;
-  border-radius: 30px;
-
-  z-index: -1;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform .1s ease-in-out;
-}
-
-a.btn2::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-color: #F2F2F2;
-  border-radius: 30px;
-
-  z-index: -1;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform .3s ease-in-out;
-}
-
-a.btn1:hover::before {
-  transform: scaleX(1);
-}
-
-a.btn1, a.btn2 {
-  z-index: 1;
-  cursor: pointer;
-}
-
-@media screen and (width > 800px) {
-  a.btn2:hover::before {
-    transform: scaleX(1);
-  }
-}
+export default Footer
