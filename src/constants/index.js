@@ -17,13 +17,13 @@ export const projectsItems = [
     desc: "A responsive React app that lets users search movies.",
   },
   {
-    link: 'https://fullstack-blog-rho.vercel.app/',
+    link: 'https://react-social-app-lpl4.vercel.app/',
     image: project3,
     title: "React Social Media App",
     desc: "A social media app built with React and Supabase.",
   },
   {
-    link: 'https://react-social-app-lpl4.vercel.app/',
+    link: 'https://emersonramos3lt.github.io/snapshot-agency-ui/',
     image: project4,
     title: "Agency Landing Page",
     desc: "Developed using HTML, CSS, and JavaScript, the website delivers a smooth and engaging experience.",
