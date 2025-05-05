@@ -36,11 +36,17 @@ a.btn2::before {
   transition: transform .3s ease-in-out;
 }
 
-a.btn1:hover::before, a.btn2:hover::before {
+a.btn1:hover::before {
   transform: scaleX(1);
 }
 
 a.btn1, a.btn2 {
   z-index: 1;
   cursor: pointer;
+}
+
+@media screen and (width > 800px) {
+  a.btn2:hover::before {
+    transform: scaleX(1);
+  }
 }
