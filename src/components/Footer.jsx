@@ -1,4 +1,4 @@
-import { useState} from 'react'
+  import { useState} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -13,7 +13,7 @@ const Footer = () => {
 
       <div data-aos="fade-up" data-aos-duration="700">
         <h1 className='footer-title text-rose-400 text-lg sm:text-2xl lg:text-3xl font-medium'>👋 Hey! Do you want to get in touch?</h1>
-        <h2 className='text-4xl sm:text-9xl font-extrabold mt-5'>LET'S TALK!</h2>
+        <h2 className='text-4xl sm:text-9xl font-extrabold mt-5'>LET&apos;S TALK!</h2>
 
        <div className='flex items-center justify-center gap-8 mt-5 sm:flex-row flex-col'>
 
