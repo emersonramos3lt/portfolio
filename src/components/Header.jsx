@@ -51,7 +51,7 @@ const Header = () => {
   return (
     <header className="max-w-[90%] m-auto">
       <motion.div
-        className="bg-rose-500 h-7 w-7 rounded-full fixed top-0 left-0 pointer-events-none z-50"
+        className="bg-rose-500 h-7 w-7 rounded-full hidden lg:block fixed top-0 left-0 pointer-events-none z-50"
         variants={variants}
         animate={cursorAnimation}
       />
