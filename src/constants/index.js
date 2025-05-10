@@ -17,10 +17,10 @@ export const projectsItems = [
     desc: "A responsive React app that lets users search movies.",
   },
   {
-    link: 'https://react-social-app-lpl4.vercel.app/',
+    link: 'https://fullstack-blog-rho.vercel.app/',
     image: project3,
-    title: "React Social Media App",
-    desc: "A social media app built with React and Supabase.",
+    title: "Full-Stack Blog with Next.js",
+    desc: "A fullstack blogging application built with Next.js with MongoDB database integration and a functional admin panel.",
   },
   {
     link: 'https://emersonramos3lt.github.io/snapshot-agency-ui/',
